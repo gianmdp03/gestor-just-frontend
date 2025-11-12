@@ -22,6 +22,7 @@
               }
             ],
             "styles": [
+              "src/normalize.css",
               "src/styles.css"
             ]
           },

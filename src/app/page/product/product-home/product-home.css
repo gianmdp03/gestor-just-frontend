@@ -1,0 +1,23 @@
+section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+section article{
+  margin:1rem;
+  padding: 1rem;
+  background:#444444;
+  text-align: center;
+  border-radius: 1rem;
+}
+section article div{
+  display:grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+a{
+  padding:1rem;
+  margin:1rem;
+  background: #888888;
+  border-radius: 1rem;
+}
